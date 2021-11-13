@@ -18,5 +18,5 @@ __Configuration drift:__ when the settings (dependencies, updates or configurati
 ## Lifecycles rules on Terraform 
 
 * `create_before_destroy = true`
-* `prevent_destroy = true`  The only way to destroy a resource is using the ```terraform destroy``` command
+* `prevent_destroy = true`  This prevent deleting your infrastructure by accident, the only way to destroy a resource is using the `terraform destroy` command
 
